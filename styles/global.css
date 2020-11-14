@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+#wrapper {
+  background-image: radial-gradient(
+      circle at 25px 25px,
+      rgba(255, 255, 255, 0.2) 2%,
+      transparent 0%
+    ),
+    radial-gradient(
+      circle at 75px 75px,
+      rgba(255, 255, 255, 0.2) 2%,
+      transparent 0%
+    );
+  background-size: 100px 100px;
+}
+
+#content {
+  max-width: 80%;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 62px;
+  line-height: 80px;
+  width: 100%;
+  text-align: center;
+  max-height: 80%;
+}
+
+span {
+  font-size: 24px;
+  line-height: 30px;
+  text-align: right;
+  width: 100%;
+}
